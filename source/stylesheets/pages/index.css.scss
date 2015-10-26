@@ -41,7 +41,7 @@
     }
 
     h2 {
-      font-size: 86px;
+      font-size: 75px;
       line-height: 1.1em;
       text-transform: none;
       letter-spacing: 0px;
@@ -53,7 +53,7 @@
     a {
       transition-timing-function: ease-in-out;
       transition-duration: 0.1s;
-      transition-property: background-color color;
+      transition-property: border-color, color;
       display: inline-block;
       margin-top: 50px;
       color: #fff;
