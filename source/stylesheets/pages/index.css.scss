@@ -1,0 +1,17 @@
+.index {
+  @include outer-container;
+  
+  > header {
+    background-image: image-url('background.png');
+    height: 940px;
+
+    h1 {
+      background-image: image-url('logo.png');
+    }
+
+    h1, h2 {
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
