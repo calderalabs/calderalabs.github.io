@@ -4,7 +4,7 @@
   > footer {
     text-align: center;
     color: #666;
-    min-height: 80px;
+    min-height: 50px;
   }
 
   > header {
@@ -85,6 +85,7 @@
         position: relative;
         width: 160px;
         height: 160px;
+        margin: 10px;
 
         h1 {
           margin: 0;
