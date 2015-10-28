@@ -10,8 +10,23 @@
 body {
   font-family: "source-serif-pro", sans-serif;
   font-weight: 300;
+  background: linear-gradient(to bottom, #161616 0%,#191919 44%,#272727 100%);
 }
 
 a, button {
   font-family: Futura;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1s;
+  transition-property: border-color, color;
+  display: inline-block;
+  color: #fff;
+  padding: 15px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #f42635;
+    border-color: #f42635;
+  }
 }
