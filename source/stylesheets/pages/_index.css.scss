@@ -13,6 +13,7 @@
 
     > figure {
       overflow: hidden;
+      max-height: 100vh;
       text-align: center;
 
       &:before {
