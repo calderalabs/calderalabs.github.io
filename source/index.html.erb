@@ -1,66 +1,43 @@
-<section class="index">
-  <header>
-    <figure><%= image_tag 'background.png' %></figure>
-
-    <div class="content">
-      <div>
-        <div>
-          <h1>
-            <figure><%= image_tag 'logo.svg' %></figure>
-          </h1>
-
-          <h2>Ember, Rails and Phoenix<br> consulting in London</h2>
-          <a data-scroll href="#team">Meet the team</a>
-        </div>
-      </div>
+<div class="index">
+  <header class="index__header">
+    <div class="index__header-content">
+      <figure class="index__logo"><%= image_tag 'logo.svg', class: 'index__logo-image' %></figure>
+      <h1 class="index__title">Ember, Rails and Phoenix<br> consulting in London</h1>
+      <a data-scroll href="#team">Meet the team</a>
     </div>
   </header>
 
-  <main>
-    <section class="team" id="team">
-      <ul>
-        <li>
-          <article>
-            <figure>
-              <img src="https://avatars3.githubusercontent.com/u/151741?v=3&s=250"></img>
-            </figure>
+  <main class="index__team" id="team">
+    <div>
+      <article class="index__person">
+        <figure class="index__person-avatar">
+          <img src="https://avatars3.githubusercontent.com/u/151741?v=3&s=250"></img>
+        </figure>
 
-            <div class="actions">
-              <div>
-                <div>
-                  <h1>Eugenio Depalo</h1>
-                  <a class="resume" href="http://eugeniodepalo.com" target="_blank">Resume</a>
-                </div>
-              </div>
-            </div>
-          </article>
-        </li>
+        <div class="index__person-actions">
+          <h1 class="index__person-title">Eugenio Depalo</h1>
+          <a class="index__person-resume" href="http://eugeniodepalo.com" target="_blank">Resume</a>
+        </div>
+      </article>
 
-        <li>
-          <article>
-            <figure>
-              <img src="https://avatars3.githubusercontent.com/u/151725?v=3&s=250"></img>
-            </figure>
+      <article class="index__person">
+        <figure class="index__person-avatar">
+          <img src="https://avatars3.githubusercontent.com/u/151725?v=3&s=250"></img>
+        </figure>
 
-            <div class="actions">
-              <div>
-                <div>
-                  <h1>Matteo Depalo</h1>
-                  <a class="resume" href="http://matteodepalo.com" target="_blank">Resume</a>
-                </div>
-              </div>
-            </div>
-          </article>
-        </li>
-      </ul>
-    </section>
+        <div class="index__person-actions">
+          <h1 class="index__person-title">Matteo Depalo</h1>
+          <a class="index__person-resume" href="http://matteodepalo.com" target="_blank">Resume</a>
+        </div>
+      </article>
 
-    <section class="contact" id="contact">
-      <a href="mailto:hi@calderalabs.io">Contact us</a>
-    </section>
+      <div class="index__contact">
+        <a href="mailto:hi@calderalabs.io">Contact us</a>
+      </div>
+    </div>
   </main>
 
-  <footer>
+  <footer class="index__footer">
     <small>
       © Copyright 2015, Caldera Labs Ltd<br />
       71-75 Shelton Street<br />
@@ -70,4 +47,4 @@
       VAT Number: 222677508
     </small>
   </footer>
-</section>
+</div>
