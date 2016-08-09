@@ -419,7 +419,7 @@ html {
     padding: 1.618em; }
   /* line 63, /Users/eugeniodepalo/Documents/calderalabs.github.io/source/stylesheets/pages/_index.css.scss */
   .index__contact {
-    margin-top: 4.854em; }
+    margin: 4.854em 0 1.618em; }
   /* line 67, /Users/eugeniodepalo/Documents/calderalabs.github.io/source/stylesheets/pages/_index.css.scss */
   .index__person {
     display: inline-block;
