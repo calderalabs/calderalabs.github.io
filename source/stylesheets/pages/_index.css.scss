@@ -35,6 +35,12 @@
     background: #000;
   }
 
+  &__clients {
+    text-align: center;
+    color: #666;
+    padding-bottom: $gutter * 3;
+  }
+
   &__title {
     font-size: 75px;
     line-height: 1.1em;
@@ -106,5 +112,28 @@
 
   &__person-resume {
     margin-top: $gutter;
+  }
+
+  &__clients {
+    li {
+      display: inline-block;
+      filter: grayscale(100%);
+      opacity: 0.6;
+      transition: all 200ms;
+    }
+
+    li:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+
+    a {
+      border: 0;
+    }
+
+    img {
+      height: 60px;
+      vertical-align: middle;
+    }
   }
 }
