@@ -118,7 +118,7 @@
     ul {
       margin-left: 0;
     }
-    
+
     li {
       display: inline-block;
       filter: grayscale(100%);
@@ -137,6 +137,7 @@
 
     img {
       height: 60px;
+      max-width: 100%;
       vertical-align: middle;
     }
   }
